@@ -52,6 +52,9 @@ header img {
 	padding: 0 30px 0 30px;
 
 }
+
+
+
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
 }
@@ -64,8 +67,11 @@ main {
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
-	border-top: 3px solid #931420;
-	border-bottom: 3px solid #931420;
+	margin-bottom: 1em;
+	border: solid #931420;
+	border-style: double;
+	border-radius: 5px;
+	box-shadow: 5px 5px;
 
 
 
